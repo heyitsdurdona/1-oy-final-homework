@@ -193,7 +193,39 @@ ul{
     letter-spacing: -0.53px;
     color: #5454D4;
 }
-
 /* ---------------------SUBSCRIPTION END ------------- */
+
+/* ---------------------METRICS START----------------- */
+.site-main__metrics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-main__metrics-text-wrapper{
+    max-width: 556px;
+}
+
+.site-main__metrics-title{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+
+.site-main__metrics-text{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    color: #696871;
+    margin-bottom: 30px;
+}
+
+/* ---------------------METRICS END ------------------ */
 
 /* -------------------- MAIN END ----------------------- */
