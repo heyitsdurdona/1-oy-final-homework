@@ -116,7 +116,6 @@ ul{
 
 .site-main__button-wrapper{
     display: flex;
-    /* justify-content: space-between; */
     gap: 40px;
 }
 
@@ -200,6 +199,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 119px;
 }
 
 .site-main__metrics-text-wrapper{
@@ -225,7 +225,43 @@ ul{
     color: #696871;
     margin-bottom: 30px;
 }
-
 /* ---------------------METRICS END ------------------ */
 
+/* ---------------------PRICING START----------------- */
+.site-main__pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-main__pricing-card{
+    max-width: 307px;
+    text-align: center;
+}
+
+.site-main__pricing-img{
+    width: 151px;
+    margin-bottom: 7px;
+}
+
+.site-main__pricing-title{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.75px;
+    color: #19191B;
+    margin-bottom: 20px;
+}
+
+.site-main__pricing-info{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #696871;
+}
+
+/* ---------------------PRICING END----------------- */
 /* -------------------- MAIN END ----------------------- */
