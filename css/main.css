@@ -262,6 +262,137 @@ ul{
     letter-spacing: -0.5px;
     color: #696871;
 }
-
 /* ---------------------PRICING END----------------- */
+
+/* ----------------------PLANS START-------------------- */
+.site-main__plan{
+    margin-top: 150px;
+    margin-bottom: 158px;
+}
+.site-main__plan-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-main__plan-title{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.88px;
+    color: #19191B;
+    max-width: 523px;
+}
+
+.site-main__plan-buttons-wrapper{
+    width: 346px;
+    padding: 5px;
+    background-color: #F7F7FB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    width: 50%;
+    padding: 18px 0;
+    border: none;
+    background-color: transparent; 
+    transition: all 0.5s;
+
+    color: #19191B;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.button:hover{
+    background-color: #5454D4;
+    color: #fff;
+}
+
+.button:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.button:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.site-main__plan-card-wrapper{
+    display: flex;    
+    flex-direction: row;
+    gap: 30px;
+}
+
+.site-main__plan-card{
+    margin-top: 82px;
+    width: 376px;
+    background-color: #EAE9F2;
+    border-radius: 10px;
+    padding-top: 34px;
+    padding-bottom: 27px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.site-main__plan-card-title{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.03px;
+    color: #1D293F;
+    margin-top: 22px;
+    margin-bottom: 28px;
+}
+
+.card-info{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+    color: #696871;
+    margin-bottom: 40px;
+}
+
+.getstarted{
+    padding: 19px 42px;
+    margin-top: 36px;
+    margin-bottom: 27px;
+    border-radius: 10px;
+    border: none;
+    width: 285px;
+
+    color: #5454D4;
+    font-size: 17px;
+    font-family: 'Dm sans', sans-serif;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: -0.53px;
+}
+
+.site-main__plan-card:hover{
+    background-color: #FF7143;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.site-main__plan-card:hover, 
+.site-main__plan-card:hover .card-info,  
+.site-main__plan-card:hover .site-main__plan-card-title {
+    color: #fff;
+}
+
+.site-main__plan-card:hover .getstarted{
+    background-color: #9F3919;
+    color: white;
+}
+
+/* ----------------------PLANS END --------------------- */
 /* -------------------- MAIN END ----------------------- */
