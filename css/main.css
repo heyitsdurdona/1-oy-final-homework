@@ -133,7 +133,67 @@ ul{
     background-color: #5454D4;
 }
 
+
+.down-arrow{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #E7E7E7;
+
+    color: #19191B;
+}
 /* -------------------- HERO END ----------------------- */
 
+/* ---------------------ADVERTISEMENT START------------- */
+.site-main__adv-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+/* ---------------------ADVERTISEMENT END------------- */
+
+/* ---------------------SUBSCRIPTION START------------ */
+.site-main__subscription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 102px;
+}
+
+.site-main__subscription-text-wrapper{
+    max-width: 556px;
+}
+
+.site-main__subscription-title{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+
+.site-main__subscription-text{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    color: #696871;
+    margin-bottom: 30px;
+}
+
+.site-main__learn-more{
+    font-family: 'DM sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: -0.53px;
+    color: #5454D4;
+}
+
+/* ---------------------SUBSCRIPTION END ------------- */
 
 /* -------------------- MAIN END ----------------------- */
